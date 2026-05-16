@@ -4,7 +4,7 @@
 ![Domain](https://img.shields.io/badge/Domain-Healthcare-red)
 ![Model](https://img.shields.io/badge/Model-Temporal%20Fusion%20Transformer-blueviolet)
 ![Task](https://img.shields.io/badge/Task-Binary%20Classification-orange)
-![License](https://img.shields.io/badge/License-MIT-brightgreen)
+
 
 ---
 
