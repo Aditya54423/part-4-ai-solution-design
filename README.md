@@ -205,39 +205,13 @@ Designed assuming review by a clinical ethics board and MHRA/FDA submission as a
 > The AI is decision support, not a replacement. Every alert requires a human to review the patient and decide what to do. The model answers which patient to look at first — it does not answer what is wrong or what to do about it. That distinction is not a legal caveat. It is the correct way to deploy AI in a domain where the cost of getting it wrong is irreversible.
 
 ---
-
-## How to Run
-
-```bash
-# Clone the repo
-git clone https://github.com/<your-username>/part-4-ai-solution-design
-cd part-4-ai-solution-design
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Launch notebook
-jupyter notebook notebook.ipynb
-```
+## Note
 
 The notebook loads both reference CSVs from Google Drive on the first data cell. If Drive is unavailable, place `ai_usecase_reference_catalog.csv` and `business_kpi_sample.csv` in the same folder as the notebook and rerun.
 
 ---
 
-## Requirements
 
-```
-numpy>=1.23.0
-pandas>=1.5.0
-matplotlib>=3.6.0
-seaborn>=0.12.0
-scikit-learn>=1.2.0
-requests>=2.28.0
-jupyter>=1.0.0
-ipykernel>=6.0.0
-```
-
----
 
 ## References
 
